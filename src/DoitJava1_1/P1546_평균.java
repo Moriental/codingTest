@@ -30,8 +30,5 @@ public class P1546_평균 {
         }
 
         System.out.println(sum * 100.0 / max / N);
-
-
     }
-
 }
