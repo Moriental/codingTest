@@ -12,8 +12,9 @@ public class P11659_구간합구하기 {
         int suNo = Integer.parseInt(stringTokenizer.nextToken());
         int quizNo = Integer.parseInt(stringTokenizer.nextToken());
 
-        long [] s = new long[suNo + 1];
+        long [] s = new long[suNo + 1]; //배열에 +1을 하는 이유는 인덱싱을 1부터 하기 위해
         stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        //0부터 시작
         for(int i = 1; i<=suNo;i++){
             s[i] = s[i-1] + Integer.parseInt(stringTokenizer.nextToken());
         }

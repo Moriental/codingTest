@@ -11,7 +11,7 @@ public class P11660_구간합구하기2 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        int[][] A = new int[N + 1][N + 1];
+        int[][] A = new int[N + 1][N + 1]; //배열을 N+1 N+1로 시작하는 이유는 인덱싱을 1부터 시작하기 위해
         for (int i = 1; i <= N; i++) {
             st = new StringTokenizer(br.readLine());
             for (int j = 1; j <= N; j++) {
