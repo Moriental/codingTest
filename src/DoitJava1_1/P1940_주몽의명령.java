@@ -21,7 +21,7 @@ public class P1940_주몽의명령 {
 
         int count = 0;
         int i =0;
-        int j =N-1;
+        int j =N-1; // 배열 상에서 1,2,3,4,5,6 이 있다고 할 때 배열의 마지막 크기는 (5) 그래서 n-1
 
         while(i<j){
             if(A[i] + A[j] < M){
