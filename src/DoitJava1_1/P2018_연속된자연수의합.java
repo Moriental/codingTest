@@ -8,7 +8,7 @@ public class P2018_연속된자연수의합 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        int count = 1;
+        int count = 1; // 자기 자신 하나로 이루어진 경우의 수 미리 저장
         int start_index = 1;
         int end_index = 1;
         int sum = 1;
