@@ -38,4 +38,5 @@ public class P11660_구간합구하기2 {
             System.out.println(result);
         }
     }
+    //테스트
 }
