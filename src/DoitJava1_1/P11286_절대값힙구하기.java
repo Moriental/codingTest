@@ -10,7 +10,7 @@ public class P11286_절대값힙구하기 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         PriorityQueue<Integer> pq = new PriorityQueue<>((o1,o2)->{
-
+            //compareTo 에 대해서 알아야할 것 같다.
             // 절대값 작은 데이터 먼저
             int first_abs = Math.abs(o1);
             int second_abs = Math.abs(o2);
