@@ -1,8 +1,6 @@
 package DoitJava1_1;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.Stack;
 
 // 3 5 2 7
@@ -29,6 +27,11 @@ public class P17298_오큰수구하기 {
             //반복문을 다 돌고 나왔는데 스택이 비어 있지 않다면 빌 때까지
             ans[stack.pop()] = -1;
         }
-
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        for(int i = 0;i<N;i++){
+            bw.write(ans[i]  + " ");
+        }
+        bw.write("\n");
+        bw.flush();
     }
 }
