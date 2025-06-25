@@ -31,7 +31,7 @@ public class P11399_ATM {
         }
         S[0] = A[0];
         for(int i = 1;i<N;i++){
-            S[i] = S[i-1] +A[i]; //배열합
+            S[i] = S[i-1] +A[i]; //합배열
         }
         int sum = 0;
         for(int i = 0;i<N;i++){
